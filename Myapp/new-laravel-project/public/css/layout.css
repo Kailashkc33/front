@@ -1,0 +1,61 @@
+.container1{    
+    border: 1px solid;
+}
+.container2{
+    border: 1px solid;
+    width: 30vw;
+    height: 30vw;
+    float: inline-end;
+    position: fixed;
+    top: 150px;
+    
+    right: 250px;
+}
+.stdfont{
+    font-family: 'Poppins';
+    
+
+font-weight: 800;
+color: #696F79;
+
+
+}
+
+
+
+.profileimage {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    width: 300px; /* Set width for the container */
+    
+    padding: 10px; /* Add padding to create space around content */
+}
+
+.profileinfo {
+    margin-left: 20px; /* Add space between image and text */
+    margin-bottom: 40px;
+}
+.nav-link {
+    color: #696F79;
+  }
+  img[src="/logo1.png"],img[src="/logo2.png"],img[src="/logo3.png"] {
+    width: 18px; /* Example: Set width */
+    height: auto; /* Example: Maintain aspect ratio */
+    opacity: 1; /* Example: Adjust opacity */
+}
+  img[src="/historical.png"],img[src="/medicine.png"],img[src="/maths.png"],img[src="/agri.png"] {
+    width: 20px;
+    height: auto;
+   
+    border-radius: 12.31px 0px 0px 0px;
+    opacity: 1px;
+    padding: 2px;
+    
+}
+
+img[src="/historical.png"]{
+    margin: 80px 0 0 80px;
+}
+  
+
+
