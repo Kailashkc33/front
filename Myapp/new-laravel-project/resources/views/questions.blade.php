@@ -68,10 +68,10 @@
         <div class="col">
             <h1>this place for the question 1</h1>
             <div class="options"> 
-                <label><input type="radio" name="options" onclick="selectOption(this)">Option 1</label>
-                <label><input type="radio" name="options" onclick="selectOption(this)" class="option">Option 3</label><br><br>
-                <label><input type="radio" name="options" onclick="selectOption(this)">Option 2</label>
-                <label><input type="radio" name="options" onclick="selectOption(this)" class="option">Option 4</label><br><br>
+                <label><input type="radio" name="options1" onclick="selectOption(this)">Option 1</label>
+                <label><input type="radio" name="options1" onclick="selectOption(this)" class="option">Option 3</label><br><br>
+                <label><input type="radio" name="options1" onclick="selectOption(this)">Option 2</label>
+                <label><input type="radio" name="options1" onclick="selectOption(this)" class="option">Option 4</label><br><br>
             </div>
         </div>
     </div>
@@ -79,10 +79,10 @@
         <div class="col">
             <h1>this place for the question 2</h1>
             <div class="options"> 
-                <label><input type="radio" name="options" onclick="selectOption(this)">Option 1</label>
-                <label><input type="radio" name="options" onclick="selectOption(this)" class="option">Option 3</label><br><br>
-                <label><input type="radio" name="options" onclick="selectOption(this)">Option 2</label>
-                <label><input type="radio" name="options" onclick="selectOption(this)" class="option">Option 4</label><br><br>
+                <label><input type="radio" name="options2" onclick="selectOption(this)">Option 1</label>
+                <label><input type="radio" name="options2" onclick="selectOption(this)" class="option">Option 3</label><br><br>
+                <label><input type="radio" name="options2" onclick="selectOption(this)">Option 2</label>
+                <label><input type="radio" name="options2" onclick="selectOption(this)" class="option">Option 4</label><br><br>
             </div>
         </div>
     </div>
@@ -90,10 +90,10 @@
         <div class="col">
             <h1>this place for the question 3</h1>
             <div class="options"> 
-                <label><input type="radio" name="options" onclick="selectOption(this)">Option 1</label>
-                <label><input type="radio" name="options" onclick="selectOption(this)" class="option">Option 3</label><br><br>
-                <label><input type="radio" name="options" onclick="selectOption(this)">Option 2</label>
-                <label><input type="radio" name="options" onclick="selectOption(this)" class="option">Option 4</label><br><br>
+                <label><input type="radio" name="options3" onclick="selectOption(this)">Option 1</label>
+                <label><input type="radio" name="options3" onclick="selectOption(this)" class="option">Option 3</label><br><br>
+                <label><input type="radio" name="options3" onclick="selectOption(this)">Option 2</label>
+                <label><input type="radio" name="options3" onclick="selectOption(this)" class="option">Option 4</label><br><br>
             </div>
         </div>
     </div>
@@ -101,10 +101,10 @@
         <div class="col">
             <h1>this place for the question 4</h1>
             <div class="options"> 
-                <label><input type="radio" name="options" onclick="selectOption(this)">Option 1</label>
-                <label><input type="radio" name="options" onclick="selectOption(this)" class="option">Option 3</label><br><br>
-                <label><input type="radio" name="options" onclick="selectOption(this)">Option 2</label>
-                <label><input type="radio" name="options" onclick="selectOption(this)" class="option">Option 4</label><br><br>
+                <label><input type="radio" name="options4" onclick="selectOption(this)">Option 1</label>
+                <label><input type="radio" name="options4" onclick="selectOption(this)" class="option">Option 3</label><br><br>
+                <label><input type="radio" name="options4" onclick="selectOption(this)">Option 2</label>
+                <label><input type="radio" name="options4" onclick="selectOption(this)" class="option">Option 4</label><br><br>
             </div>
         </div>
     </div>
@@ -112,10 +112,10 @@
         <div class="col">
             <h1>this place for the question 5</h1>
             <div class="options"> 
-                <label><input type="radio" name="options" onclick="selectOption(this)">Option 1</label>
-                <label><input type="radio" name="options" onclick="selectOption(this)" class="option">Option 3</label><br><br>
-                <label><input type="radio" name="options" onclick="selectOption(this)">Option 2</label>
-                <label><input type="radio" name="options" onclick="selectOption(this)" class="option">Option 4</label><br><br>
+                <label><input type="radio" name="options5" onclick="selectOption(this)">Option 1</label>
+                <label><input type="radio" name="options5" onclick="selectOption(this)" class="option">Option 3</label><br><br>
+                <label><input type="radio" name="options5" onclick="selectOption(this)">Option 2</label>
+                <label><input type="radio" name="options5" onclick="selectOption(this)" class="option">Option 4</label><br><br>
             </div>
         </div>
     </div>
@@ -123,10 +123,10 @@
         <div class="col">
             <h1>this place for the question 6</h1>
             <div class="options"> 
-                <label><input type="radio" name="options" onclick="selectOption(this)">Option 1</label>
-                <label><input type="radio" name="options" onclick="selectOption(this)" class="option">Option 3</label><br><br>
-                <label><input type="radio" name="options" onclick="selectOption(this)">Option 2</label>
-                <label><input type="radio" name="options" onclick="selectOption(this)" class="option">Option 4</label><br><br>
+                <label><input type="radio" name="options6" onclick="selectOption(this)">Option 1</label>
+                <label><input type="radio" name="options6" onclick="selectOption(this)" class="option">Option 3</label><br><br>
+                <label><input type="radio" name="options6" onclick="selectOption(this)">Option 2</label>
+                <label><input type="radio" name="options6" onclick="selectOption(this)" class="option">Option 4</label><br><br>
             </div>
         </div>
     </div>
@@ -134,10 +134,10 @@
         <div class="col">
             <h1>this place for the question 7</h1>
             <div class="options"> 
-                <label><input type="radio" name="options" onclick="selectOption(this)">Option 1</label>
-                <label><input type="radio" name="options" onclick="selectOption(this)" class="option">Option 3</label><br><br>
-                <label><input type="radio" name="options" onclick="selectOption(this)">Option 2</label>
-                <label><input type="radio" name="options" onclick="selectOption(this)" class="option">Option 4</label><br><br>
+                <label><input type="radio" name="options7" onclick="selectOption(this)">Option 1</label>
+                <label><input type="radio" name="options7" onclick="selectOption(this)" class="option">Option 3</label><br><br>
+                <label><input type="radio" name="options7" onclick="selectOption(this)">Option 2</label>
+                <label><input type="radio" name="options7" onclick="selectOption(this)" class="option">Option 4</label><br><br>
             </div>
         </div>
     </div>
