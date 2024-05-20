@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Game</title>
-    <!-- Include Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
@@ -14,20 +13,23 @@
             align-items: center;
             background-image: url('backgroundimg1.jpg');
             background-repeat: no-repeat;
-           
-   
-    
-           
+            background-size: cover;
+            flex-direction: column;
+            overflow: hidden;
         }
-        .options{
+        .options {
             margin: 40px 0 0 0;
             padding: 20px;
         }
-        .container{
-            background-color:#fff2ec;
+        .container {
+            background-color: #fff2ec;
             border-radius: 20px;
+            padding: 20px;
+            width: 70%;
+            max-height: 90vh;
+            overflow-y: auto;
         }
-        button{
+        button {
             padding: 5px 20px 5px 20px; 
             background-color: #37C26D;
         }
@@ -36,57 +38,148 @@
             top: 20px;
             right: 20px;
             font-size: 24px;
-            color: #ffffff;
+            color: black;
+        }
+        .option {
+            margin-left: 250px;
         }
     </style>
 </head>
 <body>
-
-<div class="container text-center" style =" height: 60%; width: 50%;">
-    <div class="row align-items-center">
-        <div class="col">
-            <h1>this place for the questions</h1>
-            <div class="options"> 
-            <input type="radio" name="options">Option 1</input><br><br>
-            <input type="radio" name="options">Option 2</input><br><br>
-            <input type="radio" name="options">Option 3</input><br><br>
-            <input type="radio" name="options">Option 4</input><br><br>
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Quit</a>
+                </li>
+            </ul>
+        </div>
+        <div id="timer">Timer: <span id="timerValue"></span></div>
     </div>
-    <button type="submit">Submit</button>
+</nav>
+
+<div class="container text-left" style="height: auto; width: 70%;">
+    <div class="row align-items-left">
+        <div class="col">
+            <h1>this place for the question 1</h1>
+            <div class="options"> 
+                <label><input type="radio" name="options" onclick="selectOption(this)">Option 1</label>
+                <label><input type="radio" name="options" onclick="selectOption(this)" class="option">Option 3</label><br><br>
+                <label><input type="radio" name="options" onclick="selectOption(this)">Option 2</label>
+                <label><input type="radio" name="options" onclick="selectOption(this)" class="option">Option 4</label><br><br>
+            </div>
         </div>
     </div>
+    <div class="row align-items-center">
+        <div class="col">
+            <h1>this place for the question 2</h1>
+            <div class="options"> 
+                <label><input type="radio" name="options" onclick="selectOption(this)">Option 1</label>
+                <label><input type="radio" name="options" onclick="selectOption(this)" class="option">Option 3</label><br><br>
+                <label><input type="radio" name="options" onclick="selectOption(this)">Option 2</label>
+                <label><input type="radio" name="options" onclick="selectOption(this)" class="option">Option 4</label><br><br>
+            </div>
+        </div>
+    </div>
+    <div class="row align-items-center">
+        <div class="col">
+            <h1>this place for the question 3</h1>
+            <div class="options"> 
+                <label><input type="radio" name="options" onclick="selectOption(this)">Option 1</label>
+                <label><input type="radio" name="options" onclick="selectOption(this)" class="option">Option 3</label><br><br>
+                <label><input type="radio" name="options" onclick="selectOption(this)">Option 2</label>
+                <label><input type="radio" name="options" onclick="selectOption(this)" class="option">Option 4</label><br><br>
+            </div>
+        </div>
+    </div>
+    <div class="row align-items-center">
+        <div class="col">
+            <h1>this place for the question 4</h1>
+            <div class="options"> 
+                <label><input type="radio" name="options" onclick="selectOption(this)">Option 1</label>
+                <label><input type="radio" name="options" onclick="selectOption(this)" class="option">Option 3</label><br><br>
+                <label><input type="radio" name="options" onclick="selectOption(this)">Option 2</label>
+                <label><input type="radio" name="options" onclick="selectOption(this)" class="option">Option 4</label><br><br>
+            </div>
+        </div>
+    </div>
+    <div class="row align-items-center">
+        <div class="col">
+            <h1>this place for the question 5</h1>
+            <div class="options"> 
+                <label><input type="radio" name="options" onclick="selectOption(this)">Option 1</label>
+                <label><input type="radio" name="options" onclick="selectOption(this)" class="option">Option 3</label><br><br>
+                <label><input type="radio" name="options" onclick="selectOption(this)">Option 2</label>
+                <label><input type="radio" name="options" onclick="selectOption(this)" class="option">Option 4</label><br><br>
+            </div>
+        </div>
+    </div>
+    <div class="row align-items-center">
+        <div class="col">
+            <h1>this place for the question 6</h1>
+            <div class="options"> 
+                <label><input type="radio" name="options" onclick="selectOption(this)">Option 1</label>
+                <label><input type="radio" name="options" onclick="selectOption(this)" class="option">Option 3</label><br><br>
+                <label><input type="radio" name="options" onclick="selectOption(this)">Option 2</label>
+                <label><input type="radio" name="options" onclick="selectOption(this)" class="option">Option 4</label><br><br>
+            </div>
+        </div>
+    </div>
+    <div class="row align-items-center">
+        <div class="col">
+            <h1>this place for the question 7</h1>
+            <div class="options"> 
+                <label><input type="radio" name="options" onclick="selectOption(this)">Option 1</label>
+                <label><input type="radio" name="options" onclick="selectOption(this)" class="option">Option 3</label><br><br>
+                <label><input type="radio" name="options" onclick="selectOption(this)">Option 2</label>
+                <label><input type="radio" name="options" onclick="selectOption(this)" class="option">Option 4</label><br><br>
+            </div>
+        </div>
+    </div>
+    <button type="submit">Submit</button>
 </div>
-<div id="timer">Timer: <span id="timerValue"></span></div>
-
-<!-- Include Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script>
-    // Timer variables
-    let timerValue = 60; // Initial timer value in seconds
+    let timerValue = 900; 
     const timerElement = document.getElementById('timerValue');
 
-    // Function to update and display the timer
     function updateTimer() {
-        timerElement.textContent = timerValue;
+        timerElement.textContent = formatTime(timerValue);
         if (timerValue > 0) {
-            timerValue--; // Decrease timer value by 1 second
-            setTimeout(updateTimer, 1000); // Schedule the next update after 1 second
+            timerValue--; 
+            setTimeout(updateTimer, 1000); 
         } else {
-            // Time's up - Add logic for what to do when the timer reaches 0
             alert('Time is up!');
         }
     }
 
-    // Call the function to start the timer when the page loads
     updateTimer();
 
-    // Function to handle submission of answer
     function submitAnswer() {
-        // Add your logic to process the selected option and move to the next question
         alert('Answer submitted!');
-        // Example: Reset the timer for the next question
-        timerValue = 60; // Reset timer to 60 seconds for the next question
-        updateTimer(); // Restart the timer
+        timerValue = 900; 
+        updateTimer(); 
+    }
+
+    function formatTime(seconds) {
+        let minutes = Math.floor(seconds / 60);
+        let remainingSeconds = seconds % 60;
+        return `${padZero(minutes)}:${padZero(remainingSeconds)}`;
+    }
+
+    function padZero(num) {
+        return (num < 10 ? '0' : '') + num;
+    }
+
+    function selectOption(input) {
+        const radioButtons = document.getElementsByName(input.name);
+        radioButtons.forEach(button => button.checked = false);
+        input.checked = true;
     }
 </script>
 </body>
